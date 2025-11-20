@@ -1,0 +1,105 @@
+// varible, data type + i/o
+
+#include<stdio.h>
+int main(){
+    printf("hello world \n");
+    printf("hello world \n");
+    printf("hello world \n");
+    printf("hello world \n");
+    return 0;
+}
+
+
+// %d int value
+
+#include<stdio.h>
+int main(){
+    int age = 22;
+    printf("your age is %d",age);
+    return 0;
+}
+
+// %f float value
+
+#include<stdio.h>
+
+int main(){
+    float pi = 3.24;
+    printf("pi is %f",pi);
+    return 0;
+}
+
+// %c char value
+
+#include<stdio.h>
+int main(){
+    char star = '*';
+    printf("star is %c",star);
+    return 0;
+}
+
+
+// scanf fungtion 
+
+#include<stdio.h>
+int main() {
+int age;
+printf("enter your age: ");
+scanf("%d",&age);
+printf("age is : %d",age);
+return 0;
+} 
+
+
+#include<stdio.h>
+int main() {
+
+int a, b; 
+printf("enter a: ");
+scanf("%d", &a);
+
+printf("enter b: ");
+scanf("%d", &b);
+
+int sum = a + b;
+printf("sum is : %d ", sum);
+return 0;
+
+}
+
+
+// Q1 area of squre 
+
+#include<stdio.h> 
+
+int main() {
+
+    int side;
+    printf("enter side: ");
+    scanf("%d", &side);
+    printf("area is : %d ", side * side);
+    return 0;
+}
+
+// Q2area of circle 
+
+#include<stdio.h>
+int main(){ 
+    float radius; 
+    printf("enter radius: ");
+    scanf("%f", &radius);
+
+    printf("area is: %f",3.14 * radius * radius);
+    return 0;
+}
+
+//Q3 out put of code 
+
+#include<stdio.h>
+int main(){
+    int a = 10;
+    float b = 5.33;
+    printf("%d \n %f",a, b);
+    return 0;
+
+}
